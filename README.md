@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pomodoro Timer
 
-## Getting Started
+![Pomodoro Timer](./Screenshot/image.png)
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The **Pomodoro Timer** is a web application that helps users implement the Pomodoro Technique, a time management method that encourages people to work in focused intervals, traditionally 25 minutes in length, followed by short breaks. This app is built using **Next.js**, **React**, and **TypeScript**, providing a responsive and interactive user experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Customizable work and break durations.
+- Visual countdown timer with progress indication.
+- Sound notifications when a session ends.
+- Informative alert dialog explaining the Pomodoro Technique.
+- Dark mode support for better visibility.
+- Easy-to-use interface with buttons for starting, pausing, and resetting the timer.
+- Responsive design for optimal performance on both desktop and mobile devices.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Prerequisites
 
-## Learn More
+Make sure you have the following installed:
 
-To learn more about Next.js, take a look at the following resources:
+- Node.js (v14 or higher)
+- npm or Yarn
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Set Work and Break Durations**: Use the "+" and "-" buttons to adjust your work and break times.
+2. **Start the Timer**: Click the play button to start the timer for your work session.
+3. **Pause and Resume**: Use the pause button to temporarily stop the timer, and click play to resume.
+4. **Reset the Timer**: Click the reset button to return to the default work duration.
+5. **Sound Notifications**: Toggle sound notifications on or off as per your preference.
+6. **Learn About the Technique**: Click on "What is Pomodoro Technique?" to learn more about this time management method.
 
-## Deploy on Vercel
+## Technologies Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Next.js**: A React framework for building server-rendered applications.
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+- **Tailwind CSS**: A utility-first CSS framework for styling.
+- **lucide-react**: An icon library used for user interface icons.
+- **react-circular-progressbar**: A library for displaying circular progress indicators.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Acknowledgments
+
+- Inspired by the Pomodoro Technique.
+- Thanks to the contributors of the libraries used in this project.
+- Special thanks to [Sir Asharib Ali](https://github.com/AsharibAli) for guiding me in building this project.

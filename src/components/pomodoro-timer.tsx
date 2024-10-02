@@ -66,7 +66,7 @@ export default function PomodoroComponent() {
       handleSessionSwitch();
     }
     return () => clearInterval(timerRef.current as NodeJS.Timeout);
-  }, [state.timerStatus, state.currentTime]);
+  }, [state.timerStatus, state.currentTime, state.currentSession]);
 
   // Function to handle switching between work and break sessions
   const handleSessionSwitch = (): void => {
@@ -192,7 +192,7 @@ export default function PomodoroComponent() {
         }));
       }, 5000); // 5-second delay before auto-starting the next session
     }
-  }, [state.currentTime, soundEnabled, audio]);
+  }, [state.currentTime, soundEnabled, audio, state.currentSession]);
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900">
